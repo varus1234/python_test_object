@@ -2,7 +2,7 @@
 このファイルに解答コードを書いてください
 """
 
-with open('input.txt.txt') as f:
+with open('input.txt') as f:
     s = f.read()
     s = s.split('\n')
     m = float(s[-2]) #floatだと30ケタまで表示されていない？
